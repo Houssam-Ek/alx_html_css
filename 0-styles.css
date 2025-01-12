@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #0d0d0d;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.hero {
+    background-image: url('placeholder.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff5e57;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.features .feature {
+    text-align: center;
+}
+
+.stats {
+    background-color: #111;
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+.stat-box {
+    display: inline-block;
+    padding: 20px;
+    background-color: #ff5e57;
+    border-radius: 10px;
+    margin: 10px;
+    color: white;
+}
+
+.form-section {
+    padding: 50px;
+    text-align: center;
+}
+
+form input, form button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    width: 80%;
+}
+
+button {
+    background-color: #ff5e57;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #0d0d0d;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: white;
+}
