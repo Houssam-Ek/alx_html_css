@@ -28,7 +28,7 @@ nav ul li a {
 }
 
 .hero {
-    background-image: url('placeholder.jpg');
+    background-image: url('Capture.PNG');
     background-size: cover;
     background-position: center;
     color: white;
@@ -60,16 +60,20 @@ nav ul li a {
     background-color: #111;
     color: white;
     text-align: center;
-    padding: 50px;
+    padding: 20px;
 }
 
 .stat-box {
     display: inline-block;
-    padding: 20px;
-    background-color: #ff5e57;
-    border-radius: 10px;
-    margin: 10px;
-    color: white;
+   
+    background-image: url('pentagone.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 20%; 
+    height: 150px; 
+    text-align: center;
+    padding-top: 20px;
 }
 
 .form-section {
