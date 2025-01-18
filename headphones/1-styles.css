@@ -1,0 +1,55 @@
+@font-face {
+  font-family: 'HolbertonSchoolIcon';
+  src: url('holberton_school-icon.eot'); /* Pour IE */
+  src: url('holberton_school-icon.eot?#iefix') format('embedded-opentype'),
+       url('holberton_school-icon.woff2') format('woff2'),
+       url('holberton_school-icon.woff') format('woff'),
+       url('holberton_school-icon.ttf') format('truetype'),
+       url('holberton_school-icon.svg#HolbertonSchoolIcon') format('svg'); /* Utilisation du fichier SVG */
+  font-weight: normal;
+  font-style: normal;
+}
+
+  
+  
+  [class^="holberton_school-icon-"], [class*=" holberton_school-icon-"] {
+    font-family: 'holberton_school-icon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .what-we-do {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .icon-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .icon-item {
+    text-align: center;
+    width: 30%;
+  }
+  
+  .icon-item i {
+    font-size: 50px;
+    color: #333;
+  }
+  
+  .icon-item p {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #666;
+  }
+  .icon-item {
+    background-color: black;
+  }

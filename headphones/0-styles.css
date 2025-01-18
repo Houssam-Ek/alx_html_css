@@ -107,3 +107,14 @@ footer {
     text-decoration: none;
     color: white;
 }
+@font-face {
+    font-family: 'HolbertonSchoolIcon';
+    src: url('holberton_school-icon.eot'); /* For IE */
+    src: url('holberton_school-icon.eot?#iefix') format('embedded-opentype'),
+         url('holberton_school-icon.woff2') format('woff2'),
+         url('holberton_school-icon.woff') format('woff'),
+         url('holberton_school-icon.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  

@@ -1,0 +1,38 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.our-results {
+    text-align: center;
+    margin-top: 50px;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+
+.pentagon-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+.pentagon {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-color: #ff2067;
+    clip-path: polygon(50% 0%, 100% 38%, 81% 100%, 19% 100%, 0% 38%);
+}
+
+
+.pentagon:hover {
+    background-color: #2c87b5;
+}
